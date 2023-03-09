@@ -1,0 +1,23 @@
+@import "utils";
+
+.icon {
+  width: $icon-size;
+  height: $icon-size;
+  vertical-align: middle;
+  display: inline-block;
+  transform: scale(1);
+
+  &.small {
+    width: $icon-size-small;
+    height: $icon-size-small;
+  }
+
+  &.large {
+    width: $icon-size-large;
+    height: $icon-size-large;
+  }
+  &.xlarge {
+    width: $icon-size-xlarge;
+    height: $icon-size-xlarge;
+  }
+}

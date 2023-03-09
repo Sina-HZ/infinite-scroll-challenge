@@ -1,0 +1,53 @@
+@import "utils";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: $color-body-bg;
+}
+
+html {
+  background: $color-body-bg;
+  font-size: 100%;
+}
+
+body {
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  letter-spacing: $body-letter-spacing;
+  color: $text-color;
+  word-wrap: break-word;
+  -webkit-tap-highlight-color: transparent;
+  font-family: IRANSans;
+  direction: rtl;
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
+:global {
+  #root,
+  #app {
+    display: contents;
+  }
+}

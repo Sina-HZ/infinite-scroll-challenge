@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@sharedComponents/*": ["src/shared-components/*"],
+        "@api/*": ["src/api/*"],
+        "@utils/*": ["src/utils/*"],
+        "@constants/*": ["src/constants/*"],
+        "@imgAssets/*": ["src/assets/img/*"],
+        "@styles/*": ["src/styles/*"],
+        "@store/*": ["src/store/*"],
+        "@routes/*": ["src/routes/*"],
+
+      }
+    }
+}

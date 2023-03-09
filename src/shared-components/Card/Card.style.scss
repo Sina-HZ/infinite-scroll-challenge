@@ -1,0 +1,9 @@
+@import "utils";
+
+.card {
+  border-radius: $border-radius;
+  background-color: $bg-main-color;
+  border: solid 0.5px $seperator-color;
+  -webkit-box-shadow: $card-shadow-2;
+  box-shadow: $card-shadow-2;
+}

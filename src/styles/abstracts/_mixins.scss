@@ -1,0 +1,28 @@
+/***
+# Responsive
+***/
+@mixin responsive($type) {
+  @if ($type == "desktop") {
+    @media #{$bp-desktop} {
+      @content;
+    }
+  }
+
+  @if ($type == "tablet") {
+    @media #{$bp-tablet} {
+      @content;
+    }
+  }
+
+  @if ($type == "mobile") {
+    @media #{$bp-mobile} {
+      @content;
+    }
+  }
+
+  @if ($type == "mobile-small") {
+    @media #{$bp-mobile-small} {
+      @content;
+    }
+  }
+}

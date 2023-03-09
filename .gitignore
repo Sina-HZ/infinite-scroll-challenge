@@ -1,0 +1,10 @@
+node_modules
+build
+.vscode
+.idea
+.yarncache
+.env
+package-lock.json
+.yarncache
+yarn.lock
+yarn-error.log

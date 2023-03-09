@@ -1,0 +1,101 @@
+@import "utils";
+
+.wrapper {
+  display: flex;
+  border-radius: 4px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 4px;
+  .rate {
+    font-size: 12px;
+  }
+
+  .icon {
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+  }
+}
+
+.color-default {
+  background-color: $dark-bilbao-color;
+  color: $starcolor-default;
+  > span {
+    svg {
+      fill: $starcolor-default;
+    }
+  }
+}
+
+.color-45 {
+  background-color: $light-limeade-color;
+  color: $starcolor-45;
+  > span {
+    svg {
+      fill: $starcolor-45;
+    }
+  }
+}
+
+.color-40 {
+  background-color: $light-yellow-green-color;
+  color: $starcolor-40;
+  > span {
+    svg {
+      fill: $starcolor-40;
+    }
+  }
+}
+.color-35 {
+  background-color: $light-Barbery-color;
+  color: $starcolor-35;
+  > span {
+    svg {
+      fill: $starcolor-35;
+    }
+  }
+}
+.color-30 {
+  background-color: $light-selective-yellow-color;
+  color: $starcolor-30;
+  > span {
+    svg {
+      fill: $starcolor-30;
+    }
+  }
+}
+.color-25 {
+  background-color: $light-safety-orange-color;
+  color: $starcolor-25;
+  > span {
+    svg {
+      fill: $starcolor-25;
+    }
+  }
+}
+.color-20 {
+  background-color: $light-scarlet-color;
+  color: $starcolor-20;
+  svg {
+    fill: $starcolor-20;
+  }
+}
+.color-15 {
+  background-color: $light-venetian-color;
+  color: $starcolor-15;
+  > span {
+    svg {
+      fill: $starcolor-15;
+    }
+  }
+}
+.color-10 {
+  background-color: $light-venetian-color;
+  color: $starcolor-10;
+  > span {
+    svg {
+      fill: $starcolor-10;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "utils";
+
+.button {
+  border-radius: $border-radius;
+  display: flex;
+  cursor: pointer;
+  padding: 0 16px;
+  font-weight: 700;
+}
+
+.primary {
+  background-color: $primary-color;
+  color: $text-white;
+  border: none;
+}

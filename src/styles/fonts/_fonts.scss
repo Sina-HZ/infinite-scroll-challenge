@@ -1,0 +1,24 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+  src: url("../assets/fonts/IRANSans.eot");
+  src: url("../assets/fonts/IRANSans.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/IRANSans.woff2") format("woff2"),
+    url("../assets/fonts/IRANSans.woff") format("woff"),
+    url("../assets/fonts/IRANSans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-display: auto;
+  font-weight: 700;
+  src: url("../assets/fonts/IRANSans_Bold.eot");
+  src: url("../assets/fonts/IRANSans_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/IRANSans_Bold.woff2") format("woff2"),
+    url("../assets/fonts/IRANSans_Bold.woff") format("woff"),
+    url("../assets/fonts/IRANSans_Bold.ttf") format("truetype");
+}
